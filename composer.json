@@ -1,0 +1,18 @@
+{
+  "name": "marius-faber/bundle-products",
+  "description": "Bundle Products",
+  "type": "shopware-platform-plugin",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "BundleProducts\\": "src/"
+    }
+  },
+  "extra": {
+    "shopware-plugin-class": "BundleProducts\\BundleProducts",
+    "label": {
+      "de-DE": "Bundle Products",
+      "en-GB": "Bundle Products"
+    }
+  }
+}
